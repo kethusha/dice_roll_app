@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 void main(){
-  addTwoNUmber(10,20);
+  addTwoNUmber(n2:10,n1:20);
   runApp(MaterialApp(
     home:HelloWorldApp(),
   ));
   
 }
-void addTwoNUmber(int n1,int n2){
+void addTwoNUmber({required n1,required n2}){
   int sum=n1+n2;
   print(sum);
 }
