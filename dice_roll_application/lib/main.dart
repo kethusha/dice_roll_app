@@ -1,11 +1,16 @@
-void diviedTwoNUmber(int n1,int n2){
+import 'package:flutter/material.dart';
 
-  
-
-  double divied= (n1/n2);
-
-  print(divied);
-}
 void main(){
-  diviedTwoNUmber(10,5);
+  runApp(MaterialApp(
+    home:HelloWorldApp(),
+  ));
+  
+}
+class HelloWorldApp extends StatelessWidget {
+  const HelloWorldApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
 }
